@@ -1,0 +1,71 @@
+# Kategorien für die Suche.
+# search_terms: werden an die Portale geschickt (LinkedIn nutzt nur den ersten).
+# keywords: entscheiden lokal, ob eine Stelle in die Kategorie passt.
+#           Stichwörter mit höchstens 3 Zeichen zählen nur als ganzes Wort.
+# art: werkstudent (Standard) oder ausbildung – welche Suchart den Bereich anbietet.
+
+- key: cloud
+  label: Cloud & DevOps
+  emoji: "☁️"
+  default_on: true
+  search_terms: [Werkstudent Cloud, Werkstudent DevOps]
+  keywords: [cloud, aws, azure, gcp, google cloud, kubernetes, k8s, docker, terraform, ci/cd, devops, openshift, ansible]
+
+- key: ki
+  label: KI & Data Science
+  emoji: "🤖"
+  default_on: true
+  search_terms: [Werkstudent KI, Werkstudent Data Science]
+  keywords: [ki, ai, künstliche intelligenz, artificial intelligence, machine learning, ml, llm, data science, data scientist, nlp, deep learning, computer vision, genai, generative]
+
+- key: security
+  label: Cyber Security
+  emoji: "🔐"
+  default_on: true
+  search_terms: [Werkstudent IT-Security, Werkstudent Cyber Security]
+  keywords: [it-sicherheit, it sicherheit, security, cybersecurity, cyber security, soc, pentest, penetration, isms, informationssicherheit, iso 27001, siem]
+
+- key: software
+  label: Softwareentwicklung
+  emoji: "💻"
+  default_on: false
+  search_terms: [Werkstudent Softwareentwicklung, Werkstudent Software Engineer]
+  keywords: [softwareentwicklung, software engineer, software developer, entwickler, backend, frontend, fullstack, full stack, java, c#, .net, python, javascript, typescript, react, web]
+
+- key: data
+  label: Data Engineering & BI
+  emoji: "📊"
+  default_on: false
+  search_terms: [Werkstudent Data Engineering, Werkstudent Business Intelligence]
+  keywords: [data engineer, data engineering, sql, etl, power bi, tableau, data warehouse, business intelligence, bi, databricks, snowflake]
+
+- key: infra
+  label: IT-Infrastruktur & Support
+  emoji: "🖧"
+  default_on: false
+  search_terms: [Werkstudent IT-Support, Werkstudent Systemadministration]
+  keywords: [systemadministration, systemadministrator, netzwerk, network, it-support, it support, helpdesk, linux, windows server, infrastruktur, infrastructure]
+
+- key: qa
+  label: Testing & QA
+  emoji: "🧪"
+  default_on: false
+  search_terms: [Werkstudent Testautomatisierung, Werkstudent QA]
+  keywords: [testautomatisierung, test automation, qa, quality assurance, testing, softwaretest, tester]
+
+- key: consulting
+  label: IT-Consulting & SAP
+  emoji: "📈"
+  default_on: false
+  search_terms: [Werkstudent SAP, Werkstudent IT-Consulting]
+  keywords: [sap, it-beratung, it beratung, it-consulting, it consulting, erp, s/4hana]
+
+# --- Ausbildung --------------------------------------------------------------------------
+
+- key: immobilien
+  label: Immobilienkaufmann/-frau
+  emoji: "🏠"
+  art: ausbildung
+  default_on: true
+  search_terms: [Ausbildung Immobilienkaufmann, Ausbildung Immobilien]
+  keywords: [immobilienkaufmann, immobilienkauffrau, immobilienkaufleute, immobilien, makler, wohnungswirtschaft, hausverwaltung, real estate, wohnungsbau, vermietung]

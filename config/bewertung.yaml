@@ -1,0 +1,12 @@
+# Gewichte für die Relevanz-Punktzahl. Stellen ab top_threshold werden mit 🔥 sofort gemeldet.
+title_keyword: 3        # Punkte je Kategorie-Stichwort im Titel …
+title_keyword_max: 2    # … höchstens so viele Treffer zählen
+snippet_keyword: 1      # Stichwort nur in der Beschreibung
+near_km: 10
+near_bonus: 2           # Entfernung ≤ near_km
+mid_km: 25
+mid_bonus: 1            # Entfernung ≤ mid_km
+fresh_24h: 2            # höchstens 24 h alt
+fresh_72h: 1            # höchstens 72 h alt
+disliked_company: -5    # Firma wurde als „uninteressant“ markiert
+top_threshold: 5

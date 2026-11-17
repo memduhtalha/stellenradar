@@ -1,0 +1,21 @@
+services:
+  bot:
+    build: .
+    env_file: .env
+    environment:
+      TZ: Europe/Berlin
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config
+    depends_on:
+      - lightpanda
+    restart: unless-stopped
+
+  lightpanda:
+    # CDP-Server auf 0.0.0.0:9222; --advertise-host, sonst lehnt Lightpanda den Host „lightpanda“ ab (403).
+    image: lightpanda/browser:1.0.4  # feste Version statt nightly – Update bewusst und getestet
+    command: ["/bin/lightpanda", "serve", "--host", "0.0.0.0", "--port", "9222",
+              "--advertise-host", "lightpanda", "--log_level", "info"]
+    environment:
+      LIGHTPANDA_DISABLE_TELEMETRY: "true"
+    restart: unless-stopped

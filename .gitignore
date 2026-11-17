@@ -1,0 +1,8 @@
+.env
+data/
+__pycache__/
+.venv/
+.pytest_cache/
+.superpowers/
+*.egg-info/
+config/*.local.yaml

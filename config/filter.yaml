@@ -1,0 +1,34 @@
+# Titel mit diesen Wörtern gelten als fachfremd und werden verworfen –
+# außer im Titel steht zusätzlich ein Stichwort eines aktiven Bereichs (z. B. „Marketing Automation mit KI“).
+# Wörter mit höchstens 3 Zeichen zählen nur als ganzes Wort.
+ausschluss_titel:
+  - marketing
+  - vertrieb
+  - sales
+  - verkauf
+  - business development
+  - hr
+  - human resources
+  - personal
+  - recruiting
+  - employer branding
+  - controlling
+  - buchhaltung
+  - accounting
+  - finanz
+  - finance
+  - steuer
+  - tax
+  - einkauf
+  - procurement
+  - logistik
+  - lager
+  - social media
+  - redaktion
+  - kundenservice
+  - customer service
+  - recht
+  - legal
+  - gastronomie
+  - restaurant
+  - veranstaltung

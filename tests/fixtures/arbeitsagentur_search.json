@@ -1,0 +1,64 @@
+{
+ "maxErgebnisse": 3,
+ "page": 1,
+ "size": 50,
+ "ergebnisliste": [
+  {
+   "referenznummer": "10000-10000000-S",
+   "stellenangebotsTitel": "Werkstudent (m/w/d) Software Testing",
+   "firma": "Beispielwerk 0 GmbH",
+   "alleBerufe": [
+    "Softwaretester/in"
+   ],
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "40210",
+      "ort": "Düsseldorf"
+     },
+     "breite": 51.22,
+     "laenge": 6.78
+    }
+   ],
+   "datumErsteVeroeffentlichung": "2026-10-20"
+  },
+  {
+   "referenznummer": "10000-10000001-S",
+   "stellenangebotsTitel": "Werkstudent (m/w/d) IT-Support",
+   "firma": "Beispielwerk 1 GmbH",
+   "alleBerufe": [
+    "IT-Supporter/in"
+   ],
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "47798",
+      "ort": "Krefeld"
+     },
+     "breite": 51.33,
+     "laenge": 6.56
+    }
+   ],
+   "datumErsteVeroeffentlichung": "2026-10-21"
+  },
+  {
+   "referenznummer": "10000-10000002-S",
+   "stellenangebotsTitel": "Werkstudent (m/w/d) Digitale Transformation",
+   "firma": "Beispielwerk 2 GmbH",
+   "alleBerufe": [
+    "Projektassistent/in"
+   ],
+   "stellenlokationen": [
+    {
+     "adresse": {
+      "plz": "41460",
+      "ort": "Neuss"
+     },
+     "breite": 51.2,
+     "laenge": 6.69
+    }
+   ],
+   "datumErsteVeroeffentlichung": "2026-10-22"
+  }
+ ]
+}

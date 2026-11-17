@@ -1,0 +1,44 @@
+# Karriereseiten von Firmen, die der Bot bei der Suchart „Ausbildung“ regelmäßig prüft.
+# Er sucht dort Überschriften/Links wie „Ausbildung zum/zur …“ oder „… (m/w/d)“, die zu einem
+# aktiven Bereich passen (z. B. Immobilien). Weitere Firmen einfach unten ergänzen.
+# Ob eine Firma im Umkreis liegt, entscheidet der Bot über „ort“ – Firmen weiter weg schaden nicht.
+#
+# name: Firmenname · ort: Ort (für die Entfernung) · url: Seite mit den Ausbildungs-/Stellenangeboten
+#
+# Quelle für weitere Ausbildungsbetriebe: IHK-Ausbildungsatlas Mittlerer Niederrhein
+# https://ausbildungsatlas.ihk-krefeld.de/berufe/immobilienkaufmann-immobilienkauffrau/
+
+# --- Krefeld ---
+- name: Wohnstätte Krefeld Wohnungs-AG
+  ort: Krefeld
+  url: https://wohnstaette-krefeld.de/karriere/ausbildung
+
+- name: LBS Nordwest Beratungscenter Krefeld
+  ort: Krefeld
+  url: https://www.lbsnordwest-karriere.de/stellenboerse/?job=ausbildung-immobilienkaufmann-m-w-d-in-krefeld-lbs-beratungscenter-in&type=intern&id=71
+
+# --- Mönchengladbach ---
+- name: WohnBau Mönchengladbach GmbH
+  ort: Mönchengladbach
+  url: https://wohnbau-mg.de/stellenangebote/
+
+- name: Durst Bau GmbH
+  ort: Mönchengladbach
+  url: https://www.durstbau.com/stellenangebote-jobs/industrie-ausbildung/
+
+- name: EWMG Entwicklungsgesellschaft Mönchengladbach
+  ort: Mönchengladbach
+  url: https://www.ewmg.de/ueber-uns/ausbildung-jobs/
+
+# --- Duisburg / Düsseldorf / Rhein-Kreis Neuss ---
+- name: GEBAG Duisburger Baugesellschaft
+  ort: Duisburg
+  url: https://www.gebag.de/karriere/ausbildung-bei-der-gebag
+
+- name: Düsseldorfer Wohnungsgenossenschaft eG
+  ort: Düsseldorf
+  url: https://www.dwg-online.de/infos/stellenangebote
+
+- name: BGD Wohnen – Baugenossenschaft Dormagen eG
+  ort: Dormagen
+  url: https://bgd-wohnen.de/karriere/ausbildungsberuf-erklaert/

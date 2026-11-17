@@ -1,0 +1,18 @@
+# Welche Quellen der Bot abfragt (true = an, false = aus).
+#
+# Eigene Abweichungen gehören in config/quellen.local.yaml (wird nicht eingecheckt) –
+# dort genügt z. B. „stepstone: true“, alles andere kommt von hier.
+
+# Offizielle Schnittstelle bzw. Seiten ohne Verbot automatisierter Abfragen in den Nutzungsbedingungen
+arbeitsagentur: true   # Jobsuche-API der Bundesagentur für Arbeit
+stellenwerk: true      # Jobportal der Düsseldorfer Hochschulen (nur Suchart Werkstudent)
+ausbildungde: true     # ausbildung.de (nur Suchart Ausbildung)
+azubiyo: true          # AZUBIYO (nur Suchart Ausbildung)
+azubide: true          # azubi.de (nur Suchart Ausbildung)
+firmen: true           # Karriereseiten aus config/firmen.yaml (nur Suchart Ausbildung)
+
+# ⚠️ Diese Portale untersagen automatisierte Abfragen in ihren Nutzungsbedingungen.
+# Standardmäßig aus – wer sie einschaltet, tut das auf eigene Verantwortung.
+stepstone: false
+indeed: false
+linkedin: false
